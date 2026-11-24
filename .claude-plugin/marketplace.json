@@ -1,0 +1,5 @@
+{
+  "name": "light-minimal-theme",
+  "owner": { "name": "tortaise-stack" },
+  "plugins": [{ "name": "light-minimal", "source": "./" }]
+}
