@@ -1,8 +1,8 @@
 # Light minimal
 
-A light, minimal theme for Claude Code in the Claude desktop app: a soft, barely-blue
-background, cool near-white surfaces, quiet grey text and one calm blue accent. Your
-messages show as flat white cards with a thin border. It sets itself at the start of
+A light, minimal theme for Claude Code in the Claude desktop app: a soft lavender
+background, purple-tinted near-white surfaces, quiet grey text and one calm purple accent. Your
+messages show as flat white cards with a thin lavender border. It sets itself at the start of
 every session and stays light even when the Mac is in dark mode.
 
 ## Install
