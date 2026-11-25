@@ -11,9 +11,9 @@ const { theme, problems } = makeColors({
   light: {
     gray: {
       anchors: {
-        'surface-0': '#e3daf2',
-        'surface-1': '#f0ebf9',
-        'surface-2': '#faf7fe',
+        'surface-0': '#e8e1f2',
+        'surface-1': '#f3eff9',
+        'surface-2': '#fbf9fe',
         'text-primary': '#1f2328',
         'text-secondary': '#454b54',
         'text-muted': '#5f6670',
@@ -23,7 +23,7 @@ const { theme, problems } = makeColors({
 })
 
 // A soft, barely-purple ground behind the chat.
-const BASE: ThemeSetArgs = { colors: theme, overrideColorScheme: 'light', backdrop: { color: '#ebe3f8' } }
+const BASE: ThemeSetArgs = { colors: theme, overrideColorScheme: 'light', backdrop: { color: '#efe9f8' } }
 
 // Minimal rows: your messages as a flat white card with a hairline border,
 // replies left plain, and a touch more line spacing.
@@ -31,7 +31,7 @@ const LOOK: ThemeSetArgs = {
   ...BASE,
   style: {
     Text: { lineHeight: 24 },
-    UserMessage: { backgroundColor: '#ffffff', color: '#1f2328', borderColor: '#cfc0ea', borderWidth: 1, radius: 10, paddingX: 14, paddingY: 10, shadow: 'none' },
+    UserMessage: { backgroundColor: '#ffffff', color: '#1f2328', borderColor: '#d6cbea', borderWidth: 1, radius: 10, paddingX: 14, paddingY: 10, shadow: 'none' },
     ToolUse: { color: '#454b54' },
   },
 }
